@@ -22,7 +22,7 @@ public class ComparisonSettingViewModel extends AndroidViewModel {
     /**
      * Calls apply changes to store data in database.
      *
-     * @param comparisonSetting Contains data from the view (AdjustComparisonSetting)
+     * param comparisonSetting Contains data from the view (AdjustComparisonSetting)
      */
     void setWeights(ComparisonSetting comparisonSetting) {
         comparisonSettingRepository.updateSettings(comparisonSetting);
@@ -31,7 +31,7 @@ public class ComparisonSettingViewModel extends AndroidViewModel {
     /**
      * Populates initial view from the database.
      *
-     * @return all weights from comparison settings table
+     * return all weights from comparison settings table
      */
     LiveData<ComparisonSetting> getWeights() {
         return weights;

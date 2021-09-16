@@ -1,4 +1,3 @@
-package edu.gatech.seclass.jobcompare6300.model;
 
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;

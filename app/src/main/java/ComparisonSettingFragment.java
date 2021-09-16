@@ -31,7 +31,7 @@ public class ComparisonSettingFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         comparisonSettingViewModel = new ViewModelProvider(this).get(ComparisonSettingViewModel.class);
-        // Because the hint fields were refactored, this will help get the EditText fields
+        
         View view = inflater.inflate(R.layout.fragment_comparison_setting, container, false);
         ArrayList<EditText> editTextArrayList = settingsHelper.buildEditTextList(view);
 
